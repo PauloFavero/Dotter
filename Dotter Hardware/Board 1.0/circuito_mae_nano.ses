@@ -1,0 +1,156 @@
+(session "circuito_mae_nano.ses"
+ (base_design "circuito_mae_nano.EDF")
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  )
+  (network_out
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 30480  -1484000 1250000 -1484000 1460500 -1397000 1547500
+     -1397000 1778000)
+    (connect (terminal pin R6-1) (terminal pin J1-3))
+   )
+   (wire (path TOP 30480  -1484000 1250000 -1250000 1250000)
+    (connect (terminal pin R6-1) (terminal pin R3-0))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path TOP 30480  -1143000 1778000 -1143000 2413000 -1230000 2500000
+     -2000000 2500000)
+    (connect (terminal pin J1-4) (terminal pin J9-0))
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   (wire (path BOT 30480  750000 2500000 750000 2349500 635000 2234500
+     635000 1778000)
+    (connect (terminal pin J7-0) (terminal pin J1-11))
+   )
+   (wire (path TOP 30480  750000 2500000 0 2500000)
+    (connect (terminal pin J7-0) (terminal pin J10-0))
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 30480  1143000 1778000 1143000 2143000 1500000 2500000)
+    (connect (terminal pin J1-13) (terminal pin J11-0))
+   )
+   (wire (path BOT 30480  1143000 1778000 1500000 1250000 1519483 750760
+     1266000 750000)
+    (connect (terminal pin J1-13) (terminal pin R1-1))
+    (type protect)
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 30480  250000 750000 250000 1000000 1000000 1000000
+     1016000 1250000)
+    (connect (terminal pin R1-0) (terminal pin R2-1))
+    (type protect)
+   )
+   (wire (path TOP 30480  250000 750000 500000 -242808 516000 -250000)
+    (connect (terminal pin R1-0) (terminal pin R4-1))
+    (type protect)
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path BOT 30480  -234000 1250000 -734000 750000 -984000 750000)
+    (connect (terminal pin R3-1) (terminal pin R5-1))
+   )
+   (wire (path TOP 30480  -234000 1250000 0 1250000)
+    (connect (terminal pin R3-1) (terminal pin R2-0))
+   )
+   )
+   (Net #00032 
+   (rule
+   )
+   (wire (path TOP 30480  -500000 -250000 -2500000 -250000 -2540000 -254000
+     -2648400 -254000 -2750000 -250000)
+    (connect (terminal pin R4-0) (terminal pin J3-0))
+    (type protect)
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path TOP 30480  -2000000 750000 -2500000 750000 -2750000 500000)
+    (connect (terminal pin R5-0) (terminal pin J4-0))
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path BOT 30480  -2500000 1250000 -2250000 1250000 -2750000 1250000
+     -2750000 2500000)
+    (connect (terminal pin R6-0) (terminal pin J5-0))
+    (type protect)
+   )
+   )
+  )
+ )
+)
